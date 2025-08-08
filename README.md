@@ -84,9 +84,7 @@ projeto_pipeline_analytics/
 ## ✍️ Autor
 
 Gabriel Centeno  
-Estudante de Engenharia de Dados | Trilha Analytics Engineer  
-[LinkedIn](https://www.linkedin.com/in/seu-usuario)  
-[Portfólio](https://github.com/seu-usuario)
+Data Analyst | Trilha Analytics Engineer  
 
 ---
 
