@@ -1,0 +1,49 @@
+| original_name                    | standardized_name              | tipo_sugerido  | descricao                                                                 |
+| -------------------------------- | ------------------------------ | -------------- | ------------------------------------------------------------------------- |
+| Dis No                           | dis_no                         | string         | Identificador único do desastre (ano + código + país)                     |
+| Year                             | year                           | int            | Ano de registro do desastre                                               |
+| Seq                              | seq                            | int            | Número sequencial do desastre no ano                                      |
+| Glide                            | glide                          | string         | Identificador GLIDE (Global Unique Disaster Identifier)                   |
+| Disaster Group                   | disaster_group                 | string         | Grupo principal do desastre (Natural, Tecnológico, etc.)                  |
+| Disaster Subgroup                | disaster_subgroup              | string         | Subgrupo do desastre (Geofísico, Meteorológico, etc.)                     |
+| Disaster Type                    | disaster_type                  | string         | Tipo de desastre (Terremoto, Tempestade, etc.)                            |
+| Disaster Subtype                 | disaster_subtype               | string         | Subtipo do desastre (Ciclone tropical, Cheia súbita, etc.)                |
+| Disaster Subsubtype              | disaster_subsubtype            | string         | Subsubtipo do desastre (categoria mais detalhada)                         |
+| Event Name                       | event_name                     | string         | Nome do evento ou designação local                                        |
+| Country                          | country                        | string         | Nome do país afetado                                                      |
+| ISO                              | iso                            | string         | Código ISO3 do país                                                       |
+| Region                           | region                         | string         | Região geográfica segundo classificação EM-DAT                            |
+| Continent                        | continent                      | string         | Continente                                                                |
+| Location                         | location                       | string         | Localidade ou área específica afetada                                     |
+| Origin                           | origin                         | string         | Origem ou causa raiz do evento                                            |
+| Associated Dis                   | associated_dis                 | string         | Desastre associado 1                                                      |
+| Associated Dis2                  | associated_dis2                | string         | Desastre associado 2                                                      |
+| OFDA Response                    | ofda_response                  | string         | Indicação se houve resposta da USAID/OFDA                                 |
+| Appeal                           | appeal                         | string         | Indicação de apelo internacional                                          |
+| Declaration                      | declaration                    | string         | Declaração oficial de desastre                                            |
+| Aid Contribution                 | aid_contribution               | double         | Contribuição de ajuda internacional (valor monetário)                     |
+| Dis Mag Value                    | dis_mag_value                  | double         | Valor da magnitude (escala depende de dis\_mag\_scale)                    |
+| Dis Mag Scale                    | dis_mag_scale                  | string         | Escala da magnitude (Richter, Mercalli, Kph, etc.)                        |
+| Latitude                         | latitude                       | double         | Latitude do evento (graus decimais)                                       |
+| Longitude                        | longitude                      | double         | Longitude do evento (graus decimais)                                      |
+| Local Time                       | local_time                     | string         | Hora local de ocorrência                                                  |
+| River Basin                      | river_basin                    | string         | Nome da bacia hidrográfica afetada                                        |
+| Start Year                       | start_year                     | int            | Ano de início do evento                                                   |
+| Start Month                      | start_month                    | int            | Mês de início do evento                                                   |
+| Start Day                        | start_day                      | int            | Dia de início do evento                                                   |
+| End Year                         | end_year                       | int            | Ano de término do evento                                                  |
+| End Month                        | end_month                      | int            | Mês de término do evento                                                  |
+| End Day                          | end_day                        | int            | Dia de término do evento                                                  |
+| Total Deaths                     | total_deaths                   | int            | Número total de mortos                                                    |
+| No Injured                       | no_injured                     | int            | Número total de feridos                                                   |
+| No Affected                      | no_affected                    | int            | Número total de afetados (impacto humano)                                 |
+| No Homeless                      | no_homeless                    | int            | Número total de desabrigados                                              |
+| Total Affected                   | total_affected                 | int            | Soma de afetados (mortos + feridos + desabrigados)                        |
+| Reconstruction Costs ('000 US\$) | reconstruction_costs_000_us    | double         | Custos de reconstrução em milhares de dólares americanos                  |
+| Insured Damages ('000 US\$)      | insured_damages_000_us         | double         | Danos segurados em milhares de dólares americanos                         |
+| Total Damages ('000 US\$)        | total_damages_000_us           | double         | Danos totais estimados em milhares de dólares americanos                  |
+| CPI                              | cpi                            | double         | Índice de Preços ao Consumidor do país e ano do evento                    |
+| Adm Level                        | adm_level                      | int            | Nível administrativo do local (1 = estado/província, 2 = município, etc.) |
+| Admin1 Code                      | admin1_code                    | string         | Código administrativo de nível 1                                          |
+| Admin2 Code                      | admin2_code                    | string         | Código administrativo de nível 2                                          |
+| Geo Locations                    | geo_locations                  | string         | Lista ou descrição de coordenadas/locais afetados                         |
